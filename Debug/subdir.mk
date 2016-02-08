@@ -4,13 +4,22 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
-../SingleLinkedList.cpp 
+../DoubleLinkedList.cpp \
+../SingleLinkedList.cpp \
+../StringExamples.cpp \
+../StringExamples_test.cpp 
 
 OBJS += \
-./SingleLinkedList.o 
+./DoubleLinkedList.o \
+./SingleLinkedList.o \
+./StringExamples.o \
+./StringExamples_test.o 
 
 CPP_DEPS += \
-./SingleLinkedList.d 
+./DoubleLinkedList.d \
+./SingleLinkedList.d \
+./StringExamples.d \
+./StringExamples_test.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

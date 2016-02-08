@@ -115,9 +115,10 @@ void LinkList<Item>::printList() {
 }
 
 
-int main(int num, char** args)
+int mainSINGLE(int num, char** args)
 {
 	SingleLinkedList go(20);
 	go.main(args);
+	return 0;
 }
 
